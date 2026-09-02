@@ -1,0 +1,41 @@
+{
+  "benchmarks": ["cifar10", "cifar100", "imagenet200"],
+  "openood_version": "1.5",
+  "training_seeds": [0, 1, 2],
+  "group_sizes": [2, 4, 8, 16],
+  "diagnostic_baseline_size": 1,
+  "partitions": 30,
+  "partition_seed": "trial * 100 + N",
+  "official_id_rows": 9000,
+  "methods": [
+    "MSP",
+    "MaxLogit",
+    "Energy",
+    "ReAct",
+    "Mahalanobis",
+    "RMDS",
+    "ViM",
+    "KNN-k50",
+    "GMMD"
+  ],
+  "gmmd_mean": {
+    "components_per_class": 1,
+    "rank": 128,
+    "degrees_of_freedom": 5,
+    "class_weighting": "uniform",
+    "classifier_row_rank": {
+      "cifar10": 9,
+      "cifar100": 99,
+      "imagenet200": 199
+    },
+    "separated_directions": {
+      "cifar10": 0,
+      "cifar100": 0,
+      "imagenet200": 71
+    }
+  },
+  "score_orientation": "larger is more OOD-like",
+  "group_operator": "arithmetic mean of image-level scores",
+  "metrics": ["AUROC", "FPR95"],
+  "aggregation": "equal-weight OOD-dataset mean within a checkpoint, then mean and descriptive population standard deviation (ddof=0) over three checkpoints"
+}

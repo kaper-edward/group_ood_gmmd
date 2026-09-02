@@ -1,0 +1,165 @@
+{
+  "figure": "exp1_sweep",
+  "span": "page",
+  "series": {
+    "N": [
+      2,
+      4,
+      8,
+      10
+    ],
+    "CNC-Local:mean": [
+      66.965,
+      77.87,
+      89.254,
+      91.966
+    ],
+    "CNC-Local:seed_sd": [
+      3.713,
+      3.657,
+      2.675,
+      2.374
+    ],
+    "GMMD-Central:mean": [
+      82.478,
+      92.063,
+      97.995,
+      98.938
+    ],
+    "GMMD-Central:seed_sd": [
+      1.583,
+      0.935,
+      0.337,
+      0.332
+    ],
+    "GEM:mean": [
+      63.712,
+      85.098,
+      97.368,
+      98.744
+    ],
+    "GEM:seed_sd": [
+      2.173,
+      1.821,
+      0.639,
+      0.579
+    ],
+    "DN2:mean": [
+      68.001,
+      88.813,
+      97.761,
+      98.836
+    ],
+    "DN2:seed_sd": [
+      2.714,
+      1.596,
+      0.684,
+      0.475
+    ],
+    "CNC-Local:ms_per_group_mean": [
+      9.943,
+      16.553,
+      29.732,
+      36.874
+    ],
+    "CNC-Local:ms_per_group_sd": [
+      0.111,
+      0.128,
+      0.23,
+      0.234
+    ],
+    "GEM:ms_per_group_mean": [
+      2.715,
+      2.745,
+      2.742,
+      2.71
+    ],
+    "GEM:ms_per_group_sd": [
+      0.078,
+      0.056,
+      0.022,
+      0.018
+    ],
+    "DN2:ms_per_group_mean": [
+      2.698,
+      2.697,
+      2.699,
+      2.681
+    ],
+    "DN2:ms_per_group_sd": [
+      0.09,
+      0.031,
+      0.02,
+      0.028
+    ],
+    "GMMD-Central:ms_per_group_mean": [
+      2.692,
+      2.722,
+      2.708,
+      2.709
+    ],
+    "GMMD-Central:ms_per_group_sd": [
+      0.079,
+      0.062,
+      0.019,
+      0.067
+    ]
+  },
+  "kind": "one_row_two_panel_performance_runtime_sweep",
+  "layout": {
+    "rows": 1,
+    "columns": 2,
+    "panel_labels": [
+      "(a)",
+      "(b)"
+    ]
+  },
+  "x_axis": {
+    "variable": "group size N",
+    "tick_labels": [
+      2,
+      4,
+      8,
+      10
+    ],
+    "positions": [
+      0.0,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "equal_spacing": true
+  },
+  "print_safe_encoding": {
+    "CNC-Local": "dashed line, open circle",
+    "GEM": "dash-dot line, open triangle",
+    "DN2": "dotted line, open diamond",
+    "GMMD-Central": "solid line, filled square"
+  },
+  "legend": {
+    "scope": "shared across panels",
+    "methods": [
+      "CNC-Local",
+      "GEM",
+      "DN2",
+      "GMMD-Central"
+    ],
+    "location": "lower center"
+  },
+  "panel_b_y_axis": {
+    "variable": "query time",
+    "unit": "milliseconds per group",
+    "scale": "linear",
+    "limits": [
+      0,
+      40
+    ]
+  },
+  "runtime_aggregation": {
+    "point": "mean across ten held-out-class models of each model's median over four timed repeats",
+    "error_bar": "sample standard deviation across the ten held-out-class models"
+  },
+  "primary_reference_line": false,
+  "language": "English",
+  "supporting_data_for": "Figure 2"
+}

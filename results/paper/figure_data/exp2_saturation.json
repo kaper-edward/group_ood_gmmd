@@ -1,0 +1,245 @@
+{
+  "figure": "exp2_saturation",
+  "span": "page",
+  "series": {
+    "N": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "CIFAR-10:GMMD-Mean": [
+      97.756,
+      99.701,
+      99.991,
+      100.0
+    ],
+    "CIFAR-10:GMMD-Mean:checkpoint_std": [
+      0.044,
+      0.015,
+      0.0,
+      0.0
+    ],
+    "CIFAR-10:KNN-Mean (k=50)": [
+      96.495,
+      99.338,
+      99.971,
+      100.0
+    ],
+    "CIFAR-10:KNN-Mean (k=50):checkpoint_std": [
+      0.084,
+      0.028,
+      0.002,
+      0.0
+    ],
+    "CIFAR-10:RMDS-Mean": [
+      95.957,
+      99.158,
+      99.956,
+      100.0
+    ],
+    "CIFAR-10:RMDS-Mean:checkpoint_std": [
+      0.169,
+      0.085,
+      0.01,
+      0.0
+    ],
+    "CIFAR-10:MSP-Mean": [
+      92.962,
+      96.227,
+      99.134,
+      99.951
+    ],
+    "CIFAR-10:MSP-Mean:checkpoint_std": [
+      0.2,
+      0.22,
+      0.112,
+      0.014
+    ],
+    "CIFAR-10:Mahalanobis-Mean": [
+      93.708,
+      97.927,
+      99.652,
+      99.984
+    ],
+    "CIFAR-10:Mahalanobis-Mean:checkpoint_std": [
+      1.402,
+      0.847,
+      0.26,
+      0.019
+    ],
+    "CIFAR-100:GMMD-Mean": [
+      90.959,
+      96.894,
+      99.452,
+      99.964
+    ],
+    "CIFAR-100:GMMD-Mean:checkpoint_std": [
+      0.211,
+      0.117,
+      0.04,
+      0.005
+    ],
+    "CIFAR-100:KNN-Mean (k=50)": [
+      90.06,
+      96.377,
+      99.338,
+      99.959
+    ],
+    "CIFAR-100:KNN-Mean (k=50):checkpoint_std": [
+      0.16,
+      0.103,
+      0.043,
+      0.004
+    ],
+    "CIFAR-100:RMDS-Mean": [
+      90.466,
+      96.687,
+      99.451,
+      99.971
+    ],
+    "CIFAR-100:RMDS-Mean:checkpoint_std": [
+      0.318,
+      0.24,
+      0.099,
+      0.012
+    ],
+    "CIFAR-100:MSP-Mean": [
+      83.929,
+      91.334,
+      97.066,
+      99.532
+    ],
+    "CIFAR-100:MSP-Mean:checkpoint_std": [
+      0.347,
+      0.367,
+      0.258,
+      0.115
+    ],
+    "CIFAR-100:Mahalanobis-Mean": [
+      70.312,
+      75.901,
+      81.919,
+      87.728
+    ],
+    "CIFAR-100:Mahalanobis-Mean:checkpoint_std": [
+      1.214,
+      1.463,
+      1.529,
+      1.278
+    ],
+    "ImageNet-200:GMMD-Mean": [
+      94.24,
+      98.028,
+      99.583,
+      99.965
+    ],
+    "ImageNet-200:GMMD-Mean:checkpoint_std": [
+      0.14,
+      0.052,
+      0.017,
+      0.002
+    ],
+    "ImageNet-200:KNN-Mean (k=50)": [
+      94.183,
+      98.092,
+      99.624,
+      99.971
+    ],
+    "ImageNet-200:KNN-Mean (k=50):checkpoint_std": [
+      0.161,
+      0.057,
+      0.017,
+      0.002
+    ],
+    "ImageNet-200:RMDS-Mean": [
+      93.835,
+      98.279,
+      99.774,
+      99.991
+    ],
+    "ImageNet-200:RMDS-Mean:checkpoint_std": [
+      0.202,
+      0.073,
+      0.016,
+      0.001
+    ],
+    "ImageNet-200:MSP-Mean": [
+      93.176,
+      97.751,
+      99.612,
+      99.976
+    ],
+    "ImageNet-200:MSP-Mean:checkpoint_std": [
+      0.059,
+      0.03,
+      0.007,
+      0.001
+    ],
+    "ImageNet-200:Mahalanobis-Mean": [
+      75.58,
+      81.635,
+      87.575,
+      92.435
+    ],
+    "ImageNet-200:Mahalanobis-Mean:checkpoint_std": [
+      0.385,
+      0.468,
+      0.474,
+      0.523
+    ]
+  },
+  "kind": "three_panel_group_size_sweep",
+  "layout": {
+    "rows": 1,
+    "columns": 3,
+    "panel_labels": [
+      "(a)",
+      "(b)",
+      "(c)"
+    ]
+  },
+  "x_axis": {
+    "variable": "group size N",
+    "tick_labels": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "positions": [
+      0.0,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "equal_spacing": true
+  },
+  "y_axis": {
+    "variable": "mean AUROC",
+    "unit": "percent",
+    "scale": "linear",
+    "limits": [
+      60,
+      101
+    ],
+    "ticks": [
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "shared_across_panels": true
+  },
+  "methods_shown": [
+    "GMMD-Mean",
+    "KNN-Mean (k=50)",
+    "RMDS-Mean",
+    "MSP-Mean",
+    "Mahalanobis-Mean"
+  ],
+  "selection_basis": "the proposed method plus one full-bank comparator, one relative-distance comparator, one classifier-output baseline, and one tied-covariance comparator; all nine methods at N=2/4/8/16 remain in Table V",
+  "language": "English",
+  "supporting_data_for": "Figure 3"
+}

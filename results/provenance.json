@@ -1,0 +1,25 @@
+{
+  "schema": "gmmd-v11-public-provenance-v1",
+  "status": "PASS",
+  "experiment1": {
+    "status": "PASS",
+    "cells": 100,
+    "score_arrays_checked": 72000,
+    "max_rank_identity_abs": 0.0,
+    "aggregate_sha256": "4d1b29923e7bcd95829e801a9e9597ac48f835238dd9e82b1f2089ac11daddd8"
+  },
+  "experiment2": {
+    "status": "PASS",
+    "cells": 9,
+    "score_arrays_checked": 660,
+    "factor_identity_arrays_checked": 186,
+    "max_partition_replay_drift": 0.0,
+    "aggregate_sha256": "46d3f2ec09126aea5edefcbff4b15e54fb2ac68b7e9adb4ff463d5541b08fa76"
+  },
+  "public_release": {
+    "per_image_scores_included": false,
+    "partition_metrics_included": 81,
+    "tables": 8,
+    "figures": 4
+  }
+}

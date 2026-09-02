@@ -1,0 +1,239 @@
+{
+  "figure": "sqrtq_prediction",
+  "span": "page",
+  "series": {
+    "N": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "agreement_summary_q_gt_1_reported": {
+      "note": "reported grid N in {2,4,8,16}; identical to the full measured grid of this panel",
+      "cells": 108,
+      "median_absolute_error_pp": 0.141,
+      "mean_absolute_error_pp": 0.479,
+      "p90_absolute_error_pp": 1.4,
+      "maximum_absolute_error_pp": 3.334,
+      "within_1pp_fraction": 0.843,
+      "mean_signed_error_pp": -0.327,
+      "worst_cell": {
+        "absolute_error_pp": 3.334,
+        "dataset": "CIFAR-10",
+        "method": "MSP-Mean",
+        "query_size": 2,
+        "signed_error_pp": -3.334
+      }
+    },
+    "CIFAR-10:MSP-Mean:residual": [
+      -3.334,
+      -3.152,
+      -0.841,
+      -0.049
+    ],
+    "CIFAR-10:MaxLogit-Mean:residual": [
+      -0.227,
+      -0.11,
+      -0.011,
+      -0.0
+    ],
+    "CIFAR-10:Energy-Mean:residual": [
+      -0.203,
+      -0.105,
+      -0.01,
+      -0.0
+    ],
+    "CIFAR-10:ReAct-Mean:residual": [
+      -0.223,
+      -0.144,
+      -0.035,
+      -0.004
+    ],
+    "CIFAR-10:Mahalanobis-Mean:residual": [
+      -1.014,
+      -0.719,
+      -0.197,
+      -0.012
+    ],
+    "CIFAR-10:RMDS-Mean:residual": [
+      -1.296,
+      -0.488,
+      -0.035,
+      -0.0
+    ],
+    "CIFAR-10:ViM-Mean:residual": [
+      -0.308,
+      -0.196,
+      -0.039,
+      -0.001
+    ],
+    "CIFAR-10:KNN-Mean (k=50):residual": [
+      -1.191,
+      -0.401,
+      -0.024,
+      -0.0
+    ],
+    "CIFAR-10:GMMD-Mean:residual": [
+      -0.092,
+      -0.037,
+      -0.002,
+      -0.0
+    ],
+    "CIFAR-100:MSP-Mean:residual": [
+      -2.913,
+      -2.901,
+      -1.565,
+      -0.358
+    ],
+    "CIFAR-100:MaxLogit-Mean:residual": [
+      0.592,
+      0.52,
+      0.189,
+      0.015
+    ],
+    "CIFAR-100:Energy-Mean:residual": [
+      0.733,
+      0.632,
+      0.227,
+      0.017
+    ],
+    "CIFAR-100:ReAct-Mean:residual": [
+      0.546,
+      0.561,
+      0.341,
+      0.115
+    ],
+    "CIFAR-100:Mahalanobis-Mean:residual": [
+      -1.019,
+      -1.978,
+      -2.71,
+      -2.833
+    ],
+    "CIFAR-100:RMDS-Mean:residual": [
+      0.36,
+      0.27,
+      0.088,
+      0.007
+    ],
+    "CIFAR-100:ViM-Mean:residual": [
+      0.109,
+      0.189,
+      0.172,
+      0.203
+    ],
+    "CIFAR-100:KNN-Mean (k=50):residual": [
+      0.271,
+      0.157,
+      0.031,
+      -0.001
+    ],
+    "CIFAR-100:GMMD-Mean:residual": [
+      0.5,
+      0.353,
+      0.097,
+      0.005
+    ],
+    "ImageNet-200:MSP-Mean:residual": [
+      -1.238,
+      -0.753,
+      -0.201,
+      -0.018
+    ],
+    "ImageNet-200:MaxLogit-Mean:residual": [
+      -0.138,
+      -0.143,
+      -0.06,
+      -0.005
+    ],
+    "ImageNet-200:Energy-Mean:residual": [
+      -0.225,
+      -0.216,
+      -0.084,
+      -0.008
+    ],
+    "ImageNet-200:ReAct-Mean:residual": [
+      0.128,
+      0.15,
+      0.078,
+      0.031
+    ],
+    "ImageNet-200:Mahalanobis-Mean:residual": [
+      -1.33,
+      -2.432,
+      -2.856,
+      -2.539
+    ],
+    "ImageNet-200:RMDS-Mean:residual": [
+      0.319,
+      0.096,
+      -0.001,
+      -0.002
+    ],
+    "ImageNet-200:ViM-Mean:residual": [
+      -0.046,
+      -0.124,
+      -0.104,
+      -0.082
+    ],
+    "ImageNet-200:KNN-Mean (k=50):residual": [
+      0.021,
+      -0.038,
+      -0.025,
+      -0.005
+    ],
+    "ImageNet-200:GMMD-Mean:residual": [
+      0.038,
+      -0.032,
+      -0.033,
+      -0.007
+    ]
+  },
+  "kind": "residual_heatmap",
+  "residual_definition": "measured_minus_predicted_auroc_pp",
+  "color_scale": [
+    -3.5,
+    3.5
+  ],
+  "color_center": 0.0,
+  "mark_absolute_residual_gt_pp": 1.0,
+  "marked_cells": 17,
+  "displayed_query_sizes": [
+    2,
+    4,
+    8,
+    16
+  ],
+  "methods_shown": [
+    "MSP-Mean",
+    "MaxLogit-Mean",
+    "Energy-Mean",
+    "ReAct-Mean",
+    "Mahalanobis-Mean",
+    "RMDS-Mean",
+    "ViM-Mean",
+    "KNN-Mean (k=50)",
+    "GMMD-Mean"
+  ],
+  "method_labels": [
+    "MSP",
+    "MaxLogit",
+    "Energy",
+    "ReAct",
+    "Mahalanobis",
+    "RMDS",
+    "ViM",
+    "KNN",
+    "GMMD"
+  ],
+  "layout": {
+    "rows": 1,
+    "columns": 3,
+    "panel_labels": [
+      "(a)",
+      "(b)",
+      "(c)"
+    ]
+  },
+  "language": "English",
+  "supporting_data_for": "Figure 4"
+}

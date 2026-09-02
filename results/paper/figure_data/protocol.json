@@ -1,0 +1,25 @@
+{
+  "figure": "protocol",
+  "span": "page",
+  "kind": "deterministic_svg",
+  "series": {},
+  "layout": {
+    "view_box": [
+      0,
+      0,
+      1800,
+      800
+    ],
+    "minimum_font_px": 19,
+    "page_width_in": 7.16,
+    "evaluation_step": "excluded; evaluation belongs to the experimental protocol",
+    "spacing": {
+      "shared_offline": "ID training images; frozen classifier and L2 normalization; class-specific GMMD reference model",
+      "shared_inference": "method-specific group input; frozen classifier and L2 normalization; one shared set of normalized query features",
+      "shared_reference": "light-blue boxes denote reuse of the same class-specific GMMD reference model in both scoring paths",
+      "gmmd_central": "combine normalized features before Gaussian group-mean scoring; one OOD score for the input group",
+      "gmmd_mean": "align the image-level scoring path with the common inference flow, then average the scores; one OOD score for the input group"
+    }
+  },
+  "supporting_data_for": "Figure 1"
+}

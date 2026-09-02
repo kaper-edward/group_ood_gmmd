@@ -1,0 +1,415 @@
+{
+  "schema": "gmmd-experiment2-input-checksums-v1",
+  "files": [
+    {
+      "path": "data/indices/official_id_indices.npz",
+      "size": 46408,
+      "sha256": "da901499e710d6e295e3088a3e6002810f24265cab9d74750ac210bbea908651"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s0/farood_mnist.npz",
+      "size": 146160514,
+      "sha256": "353867640d55ede7600160ee2f8581b7f364b5615af20abde888ecb7e46390d1"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s0/farood_places365.npz",
+      "size": 73487674,
+      "sha256": "c5669574ce326693f1191f66390c6f0ef042e666c1e0a8a4dae91efe9e6151ee"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s0/farood_svhn.npz",
+      "size": 54355330,
+      "sha256": "fa33d770ad6f1ec712e8f1873472d5a14f5ae402b7b4caa256024941365a8f86"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s0/farood_texture.npz",
+      "size": 11776834,
+      "sha256": "db27548a73635e8bf9cdcfbb90ee249f5382d9e0ac5f0ed970157417ab014224"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s0/nearood_cifar100.npz",
+      "size": 18792514,
+      "sha256": "0fd7f65e4c4cf7d46491f3d09be4e626eaf3a98690e5d0375005345363cce16b"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s0/nearood_tin.npz",
+      "size": 16272298,
+      "sha256": "8c638a65d2a536b74b01743bc6c80d39e52b95944176043d5e4a9b1119942653"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s0/test_id.npz",
+      "size": 20960758,
+      "sha256": "2344bed90386acd3efb572b9a41a3e62f6b540a3d7f3536057b9252eca23092d"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s0/train.npz",
+      "size": 104800758,
+      "sha256": "f20420d9ff11d16f8ffcfc052c259052c7f7717b5a3b999b361d28daaf87df5d"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s1/farood_mnist.npz",
+      "size": 146160514,
+      "sha256": "a5486d81f09f2e3b18dcc4a6ee6ee79aa414a2d94170aad215c077a289f3865a"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s1/farood_places365.npz",
+      "size": 73487674,
+      "sha256": "58d26d249c2bb733877fcd58067f54677ec8ba65fc97f02ce6a7b9461828d139"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s1/farood_svhn.npz",
+      "size": 54355330,
+      "sha256": "a6a2e6f63f6a678279f5e7cc7b2699fc9f33c7d441bd9c384f0e2ed08867626b"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s1/farood_texture.npz",
+      "size": 11776834,
+      "sha256": "7f529c4b736521a698ae28a9fb7708e5c29d1ea3d03c5a0ade1d3690841e79d8"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s1/nearood_cifar100.npz",
+      "size": 18792514,
+      "sha256": "f3700f3742901e2c78989959f0da408dfb7245f0fe49a0f5826d46964ab9137a"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s1/nearood_tin.npz",
+      "size": 16272298,
+      "sha256": "ea4b4f53baa1d467d381388f471aaebfc336ee3f7f5e2a36e6ca80a95851c0c9"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s1/test_id.npz",
+      "size": 18864758,
+      "sha256": "01e181c1c32b623ed776fe1d1e19c04c7daee36a6341d705e13258a7cb7af0e5"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s1/train.npz",
+      "size": 104800758,
+      "sha256": "e9250c52c4ef76a340696b8ee8096065926f66a0dcd7c5f7bc90034b3ef67ac3"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s2/farood_mnist.npz",
+      "size": 146160514,
+      "sha256": "ca55c383834de311fadddccee2e9949f2799cd9b45041419f0108c76cea76fb4"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s2/farood_places365.npz",
+      "size": 73487674,
+      "sha256": "3abb92e73baebe6ea8bc93d856c631866adc586529dde229d0d962a481bcb0f5"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s2/farood_svhn.npz",
+      "size": 54355330,
+      "sha256": "db06037608a7b87d0cb89b090bf16560ad0a22adeba0475a89eebbdcf19c0eb3"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s2/farood_texture.npz",
+      "size": 11776834,
+      "sha256": "56bc03e612781bdd732008c543bf6c6a283a267811e35932c97993e6bd4fc389"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s2/nearood_cifar100.npz",
+      "size": 18792514,
+      "sha256": "3249d06987c6f348d7ecb07d6cc8fd5c1302a8ba8687fbc2a7f3fef9a961e456"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s2/nearood_tin.npz",
+      "size": 16272298,
+      "sha256": "80113383a293cad34f14ac3c5146e343103a30575e8bdfc12bfb0ef52d236f21"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s2/test_id.npz",
+      "size": 20960758,
+      "sha256": "881e44e3340b78fa29d2b3510924f29b85cabea7ae0b328294ecb6033e2eb330"
+    },
+    {
+      "path": "feature_cache/cifar10/resnet18_s2/train.npz",
+      "size": 104800758,
+      "sha256": "83ab8432108d91d2634cb5c7b4f90b9b9ddb037fe3677228c15668e38f7c5bb0"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s0/farood_mnist.npz",
+      "size": 171360514,
+      "sha256": "5b9af89f1420e51a7913d8ca553ae7611d06951d700ae249dc2d522c70031273"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s0/farood_places365.npz",
+      "size": 82676818,
+      "sha256": "b0d20d061f97c897f09364f8394b9c21c658c07872b666d767131dbf3e2f0fc4"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s0/farood_svhn.npz",
+      "size": 63726850,
+      "sha256": "f389d1ec2a6ad76d3d8978b2a5c6eb4838f62c9799e877887258330052f3f7d0"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s0/farood_texture.npz",
+      "size": 13807234,
+      "sha256": "a1ae4c704a6176df28c16fcf89c6cc0342ce1f211d2e7cabdc1a4863e54069cb"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s0/nearood_cifar10.npz",
+      "size": 24480514,
+      "sha256": "a994c655f53a4f99404cc441700b88cb726919a84487cab9e81be6111b87572c"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s0/nearood_tin.npz",
+      "size": 15976162,
+      "sha256": "42e97d1889afbad27b33b5ef7920b7ee236f7bc698c17981d6ca6dec656c5e6c"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s0/test_id.npz",
+      "size": 24560758,
+      "sha256": "c64e2c40eb9102f73f46b9f5ea47e0c43542676e1131dbd345ef75b7b3cd35da"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s0/train.npz",
+      "size": 122800758,
+      "sha256": "6df55665be981745c036b0e426da3f47f7d492d60884f647be30bb43b963452c"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s1/farood_mnist.npz",
+      "size": 171360514,
+      "sha256": "bbd73575e3986d176ca9fbb18446ec717cd087d2746752a57f9d419cc8bea003"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s1/farood_places365.npz",
+      "size": 82676818,
+      "sha256": "92bedbdaa33f9434f2a121d55056ca12b2ce611d271530924b6327600d5831b7"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s1/farood_svhn.npz",
+      "size": 63726850,
+      "sha256": "35f9a1c57d124c0b7005859e1cda9c68207f6fcc5838f751c79a919469bdd2a8"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s1/farood_texture.npz",
+      "size": 13807234,
+      "sha256": "f892cb9c75633efcb905d4f9fac34db7680d1603fac0aa028bc2291438a8ebd4"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s1/nearood_cifar10.npz",
+      "size": 24480514,
+      "sha256": "4bf85eacb8f22b309bb43f883b46ec217ee68985d2c89eb6b2272baa11825958"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s1/nearood_tin.npz",
+      "size": 15976162,
+      "sha256": "b8754d3c222b26e9b87084197e3b2b19a33f23966a768fe3ca8daf9ce57f54dd"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s1/test_id.npz",
+      "size": 22104758,
+      "sha256": "3b6499eb748992518d093c789b937be4819aedc74f07dc5ecdb951d1f7a72f5d"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s1/train.npz",
+      "size": 122800758,
+      "sha256": "0c76728f026281f7b9ad321fe9c9386b9f8cb1a6a481242989dbdb86a407746a"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s2/farood_mnist.npz",
+      "size": 171360514,
+      "sha256": "808951432aab9103e7875abdc785eb8aeedd97ed7a284ca0ca7e845609a65d71"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s2/farood_places365.npz",
+      "size": 82676818,
+      "sha256": "753114f37978bd68743d683865235d2ea8fe9e0b4c6997e2fe61e687f4b6c581"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s2/farood_svhn.npz",
+      "size": 63726850,
+      "sha256": "db8fd97775fe460bfce703d0dced38dc054064aa05701d1d7b1b6ba037689fbd"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s2/farood_texture.npz",
+      "size": 13807234,
+      "sha256": "a839bec805e1c2218ae89ab19a4e585a2eb7943c9b05738db53b53ab5c221fdc"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s2/nearood_cifar10.npz",
+      "size": 24480514,
+      "sha256": "eca12917b3208e77450dc46b31f8226956b477ff1300b7863f6d7c6dbb02fb42"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s2/nearood_tin.npz",
+      "size": 15976162,
+      "sha256": "ab7a0eab08d226ede4ae904b7ecb0af422a368219b22809488d5a1d39d93e2f9"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s2/test_id.npz",
+      "size": 24560758,
+      "sha256": "a52cfbc39d07c993f0a46fbb2b4d34144cdba73648c11fa7e892ef5cb3918f55"
+    },
+    {
+      "path": "feature_cache/cifar100/resnet18_s2/train.npz",
+      "size": 122800758,
+      "sha256": "f5d49b5321488d1273503e02c43c556236980b71e8e2f404948d30b25ca8db1c"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s0/farood_inaturalist_fidx4.npy",
+      "size": 10240128,
+      "sha256": "6d2e14fbf793dcc722c67de70aff7a572ebb94f43f084ab752a13a45f6ca8aa0"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s0/farood_openimage_o_fidx4.npy",
+      "size": 16249984,
+      "sha256": "6ed70eb34acd283f373f2e781f2a42d65d019ebbd83b88a8b37454e390008f89"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s0/farood_textures_fidx4.npy",
+      "size": 5283968,
+      "sha256": "af771a21b5c351b2633a495172bfb56483cf5e0b53f1601b965bd402bc6a450c"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s0/fc_weight.npy",
+      "size": 409728,
+      "sha256": "3620202d5108f795b8cad103cec121c4eb2a1ac420e506ddbbe29ec5e67c1241"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s0/id_fidx4.npy",
+      "size": 9216128,
+      "sha256": "bb8e2c0e8cfb0ad339898e79e18bdfb9d2d90c81768873d725e9a61cb56feaac"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s0/id_labels.npy",
+      "size": 72128,
+      "sha256": "4b281766bc1da3418d20d32f0d969e6afe4f6dac746972b3843023c4cfae3f75"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s0/nearood_ninco_fidx4.npy",
+      "size": 6020224,
+      "sha256": "5c4c2738f90035b8da58a19605a33b41a7f4a43edd06e2eab5795c518a8142a0"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s0/nearood_ssb_hard_fidx4.npy",
+      "size": 50176128,
+      "sha256": "e2172870dd78722dbe369812f8e0dfab30ce6b3a376963ebf17a7fb6cb77bda3"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s0/train_fidx4.npy",
+      "size": 265165952,
+      "sha256": "f8f2aafc8a00e6c031f75d707969c612e781f0eec9f68e3118ec3b6115d831cf"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s0/train_labels.npy",
+      "size": 2071736,
+      "sha256": "7697edfbf7550f8bc63a9dc1a21d7d2e54076a8c4de3712110f8a220888eb9cf"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s0/train_logits.npy",
+      "size": 103580528,
+      "sha256": "53da1a7af4fefde314f2745210aef89d3e724bab0e85577460fb9ec33442142e"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s1/farood_inaturalist_fidx4.npy",
+      "size": 10240128,
+      "sha256": "7aacd44e8a5ebdca8546a97f9cfba5de9f531cae9c97969206b7edcabf50744b"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s1/farood_openimage_o_fidx4.npy",
+      "size": 16249984,
+      "sha256": "1e22f3a77b2c30757aff0a99698735e4d17a18b71d1896368c7994348cc3c84f"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s1/farood_textures_fidx4.npy",
+      "size": 5283968,
+      "sha256": "a9ab6eee1d182c3510b05f800e90da2a74b4eaad36b2a1618f8d4e426681b455"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s1/fc_weight.npy",
+      "size": 409728,
+      "sha256": "d2456fc104a7fd0fe8bf24a71c9196880cafe93aaae7cd035ba52bc617f47174"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s1/id_fidx4.npy",
+      "size": 9216128,
+      "sha256": "d3a57b6b246c9ff81a54ed903b7c9f8a127fdaa17e0e34c2d508f0f59c3090bc"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s1/id_labels.npy",
+      "size": 72128,
+      "sha256": "4b281766bc1da3418d20d32f0d969e6afe4f6dac746972b3843023c4cfae3f75"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s1/nearood_ninco_fidx4.npy",
+      "size": 6020224,
+      "sha256": "e1c0bfc42288b4ff36cfe63f235474c3fdc2d2275c50f5d8705df0b45e077bdb"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s1/nearood_ssb_hard_fidx4.npy",
+      "size": 50176128,
+      "sha256": "e7985939c0420a196dbb45ce5120713722ec3f4899d1384fd5f3492c0b5c236b"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s1/train_fidx4.npy",
+      "size": 265165952,
+      "sha256": "c6ae9420951990b5f8df6c38e4d317a3331a6cd01cadc87b2dde5b6d0ccb74d0"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s1/train_labels.npy",
+      "size": 2071736,
+      "sha256": "7697edfbf7550f8bc63a9dc1a21d7d2e54076a8c4de3712110f8a220888eb9cf"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s1/train_logits.npy",
+      "size": 103580528,
+      "sha256": "0824471a86a2733621a2e489907832a27c140277445a5e09c97caba5d36ed273"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s2/farood_inaturalist_fidx4.npy",
+      "size": 10240128,
+      "sha256": "168678f51924404617bbe53b2318513993deddd5526c1b3c1a6b07770988b2a8"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s2/farood_openimage_o_fidx4.npy",
+      "size": 16249984,
+      "sha256": "d71e054d3a3e320f61e401e2cf760e3176c2d711f0929b52423845c0fb7cc3fe"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s2/farood_textures_fidx4.npy",
+      "size": 5283968,
+      "sha256": "696aeff365768301b4cbb75500edb1d268dc2f30223f734c5a14c2ae369596f6"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s2/fc_weight.npy",
+      "size": 409728,
+      "sha256": "134be2517b5ec83d168a0a6b9973229520ae9ac22da682e0591fab0987b77e73"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s2/id_fidx4.npy",
+      "size": 9216128,
+      "sha256": "1b77a92e24de848ac22ae8a1ca5d97360758f3eb0f25e1022b323e0ca7d9a1e2"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s2/id_labels.npy",
+      "size": 72128,
+      "sha256": "4b281766bc1da3418d20d32f0d969e6afe4f6dac746972b3843023c4cfae3f75"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s2/nearood_ninco_fidx4.npy",
+      "size": 6020224,
+      "sha256": "18a1f2bcf5b8aeb8fde0d79a34f88ec25cf13e5b747ba873293bf8cc258394aa"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s2/nearood_ssb_hard_fidx4.npy",
+      "size": 50176128,
+      "sha256": "d914da21917f9c4d52e5cf7173814beeea7c5fce539458ef77e5e7e3db9c285c"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s2/train_fidx4.npy",
+      "size": 265165952,
+      "sha256": "90127c0779bff3cc94ede2016856f8cd77f5229673e3e91a87dda3cdd09ced01"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s2/train_labels.npy",
+      "size": 2071736,
+      "sha256": "7697edfbf7550f8bc63a9dc1a21d7d2e54076a8c4de3712110f8a220888eb9cf"
+    },
+    {
+      "path": "feature_cache/imagenet200/type36_activations/s2/train_logits.npy",
+      "size": 103580528,
+      "sha256": "2f5047c5ed46055fb1376ca816817cf5b6047fc02710a6fd1c2c403cb581b5c4"
+    }
+  ]
+}

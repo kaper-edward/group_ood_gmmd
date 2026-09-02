@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or its artifacts, please cite the accompanying GMMD paper."
+title: "GMMD: Reproduction Code and Artifacts"
+type: software
+authors:
+  - family-names: Kim
+    given-names: Taeyeon
+    orcid: "https://orcid.org/0009-0001-6165-9103"
+    affiliation: Pusan National University
+  - family-names: Chae
+    given-names: Heung-Seok
+    orcid: "https://orcid.org/0000-0002-6644-9500"
+    affiliation: Pusan National University
+repository-code: "https://github.com/kaper-edward/group_ood_gmmd"
+license: MIT
+version: "11.0"
+date-released: 2026-09-02

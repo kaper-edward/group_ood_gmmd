@@ -1,0 +1,53 @@
+{
+  "dataset": "CIFAR-10",
+  "task": "9+1 leave-one-class-out untrained-class identification",
+  "methods": ["CNC-Local", "GEM", "DN2", "GMMD-Central"],
+  "training_seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "held_out_classes_per_run": 10,
+  "trained_models": 100,
+  "group_sizes": [2, 4, 8, 10],
+  "reference_images_per_trained_class": 500,
+  "evaluation_images_per_class": 500,
+  "validation_images_per_trained_class": 500,
+  "model": {
+    "architecture": "ResNet-20",
+    "feature_dimension": 64,
+    "epochs": 60,
+    "optimizer": "SGD",
+    "learning_rate": 0.1,
+    "momentum": 0.9,
+    "weight_decay": 0.0001,
+    "batch_size": 128,
+    "rotation_degrees": 15,
+    "translation_fraction": 0.1,
+    "horizontal_flip_probability": 0.5
+  },
+  "cnc_local": {
+    "reference_activation_ratio": 0.5,
+    "query_activation_ratio": 0.5,
+    "views_per_image": 27
+  },
+  "dn2": {
+    "neighbors": 2,
+    "reference_groups_per_trained_class": 100,
+    "reference_group_bank_size": 900,
+    "reference_seed": 20260821
+  },
+  "gmmd_central": {
+    "components_per_class": 1,
+    "rank": 128,
+    "observation_law": "Gaussian group mean with covariance Sigma/N"
+  },
+  "threshold": {
+    "source": "disjoint trained-class validation groups",
+    "ood_aligned_quantile": 0.9,
+    "scope": "separate for each run, method, held-out class, and group size"
+  },
+  "timing": {
+    "device": "NVIDIA GeForce RTX 3090 Ti",
+    "conditions": 40,
+    "query_groups_per_class": 10,
+    "warmups": 1,
+    "measured_repetitions": 4
+  }
+}

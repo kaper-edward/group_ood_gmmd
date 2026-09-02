@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="800" viewBox="0 0 1800 800">
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="10" refX="13" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 14 5 L 0 10 Z" fill="#111111"/>
+    </marker>
+  </defs>
+  <style>
+    .panel { fill: #fbfbfb; stroke: #999999; stroke-width: 2.5; }
+    .node { fill: #ffffff; stroke: #111111; stroke-width: 3; }
+    .reference-node { fill: #dff3ff; stroke: #111111; stroke-width: 3; }
+    .combine { fill: #f1f1f1; stroke: #111111; stroke-width: 3; }
+    .stage { font: 700 27px "Liberation Sans Narrow", "Arial Narrow", sans-serif; fill: #111111; }
+    .heading { font: 700 28px "Liberation Sans Narrow", "Arial Narrow", sans-serif; fill: #111111; }
+    .node-text { font: 24px "Liberation Sans Narrow", "Arial Narrow", sans-serif; fill: #111111; text-anchor: middle; }
+    .small-text { font: 21px "Liberation Sans Narrow", "Arial Narrow", sans-serif; fill: #111111; text-anchor: middle; }
+    .reference-text { font: 700 19px "Liberation Sans Narrow", "Arial Narrow", sans-serif; fill: #111111; text-anchor: middle; }
+    .method-text { font: 700 22px "Liberation Sans Narrow", "Arial Narrow", sans-serif; fill: #111111; text-anchor: middle; }
+    .combine-label { font: 700 19px "Liberation Sans Narrow", "Arial Narrow", sans-serif; fill: #111111; text-anchor: middle; letter-spacing: 1px; }
+    .math-text { font: italic 23px "Liberation Serif", "Times New Roman", serif; fill: #111111; text-anchor: middle; }
+    .flow { fill: none; stroke: #111111; stroke-width: 3; stroke-linecap: square; stroke-linejoin: miter; marker-end: url(#arrow); }
+    .separator { stroke: #999999; stroke-width: 2; stroke-dasharray: 5 5; }
+    .rule { stroke: #777777; stroke-width: 1.8; }
+  </style>
+
+  <rect width="1800" height="800" fill="#ffffff"/>
+
+  <rect x="28" y="28" width="900" height="300" rx="10" class="panel"/>
+  <text x="58" y="72" class="stage">COMMON OFFLINE PREPARATION</text>
+
+  <rect x="58" y="176" width="174" height="88" class="node"/>
+  <text x="145" y="228" class="node-text">ID training images</text>
+  <path d="M 232 220 H 270" class="flow"/>
+  <rect x="284" y="164" width="210" height="112" class="node"/>
+  <text x="389" y="208" class="node-text">Frozen classifier +</text>
+  <text x="389" y="242" class="node-text">L2 normalization</text>
+  <path d="M 494 220 H 532" class="flow"/>
+  <rect x="546" y="176" width="158" height="88" class="node"/>
+  <text x="625" y="210" class="node-text">Normalized ID</text>
+  <text x="625" y="242" class="node-text">features</text>
+  <path d="M 704 220 H 742" class="flow"/>
+  <rect x="756" y="148" width="144" height="144" class="reference-node"/>
+  <text x="828" y="187" class="small-text">Class-specific</text>
+  <text x="828" y="216" class="small-text">GMMD reference</text>
+  <text x="828" y="245" class="small-text">model</text>
+  <text x="828" y="277" class="math-text">{&#956;<tspan baseline-shift="sub" font-size="16">c</tspan>, &#931;<tspan baseline-shift="sub" font-size="16">c</tspan>}</text>
+
+  <rect x="28" y="356" width="900" height="416" rx="10" class="panel"/>
+  <text x="58" y="400" class="stage">INFERENCE INPUT AND COMMON PROCESSING</text>
+
+  <rect x="58" y="430" width="264" height="292" class="node"/>
+  <text x="190" y="470" class="method-text">Input group</text>
+  <text x="190" y="505" class="math-text">X={x<tspan baseline-shift="sub" font-size="16">i</tspan>}<tspan baseline-shift="sub" font-size="16">i=1</tspan><tspan baseline-shift="super" font-size="16">N</tspan></text>
+  <line x1="82" y1="530" x2="298" y2="530" class="rule"/>
+  <text x="190" y="568" class="method-text">GMMD-Central</text>
+  <text x="190" y="601" class="small-text">N same-class images</text>
+  <line x1="82" y1="628" x2="298" y2="628" class="rule"/>
+  <text x="190" y="666" class="method-text">GMMD-Mean</text>
+  <text x="190" y="699" class="small-text">N ID-only or OOD-only images</text>
+
+  <path d="M 322 576 H 360" class="flow"/>
+  <rect x="374" y="520" width="220" height="112" class="node"/>
+  <text x="484" y="564" class="node-text">Frozen classifier +</text>
+  <text x="484" y="598" class="node-text">L2 normalization</text>
+  <path d="M 594 576 H 632" class="flow"/>
+  <rect x="646" y="520" width="254" height="112" class="node"/>
+  <text x="773" y="557" class="node-text">Normalized query features</text>
+  <text x="773" y="604" class="math-text">z(x<tspan baseline-shift="sub" font-size="16">1</tspan>), &#8230;, z(x<tspan baseline-shift="sub" font-size="16">N</tspan>)</text>
+
+  <rect x="972" y="28" width="800" height="744" rx="10" class="panel"/>
+  <line x1="992" y1="350" x2="1752" y2="350" class="separator"/>
+
+  <text x="1002" y="76" class="heading">GMMD-Central</text>
+  <rect x="1298" y="102" width="190" height="66" rx="4" class="reference-node"/>
+  <text x="1393" y="129" class="reference-text">Shared GMMD</text>
+  <text x="1393" y="153" class="reference-text">reference model</text>
+  <path d="M 1393 168 V 184" class="flow"/>
+  <rect x="1002" y="188" width="226" height="112" rx="22" class="combine"/>
+  <text x="1115" y="229" class="combine-label">COMBINE</text>
+  <text x="1074" y="271" class="node-text">Feature mean</text>
+  <text x="1184" y="271" class="math-text">z(X)</text>
+  <line x1="1175" y1="250" x2="1193" y2="250" stroke="#111111" stroke-width="2"/>
+  <path d="M 1228 244 H 1266" class="flow"/>
+  <rect x="1280" y="188" width="226" height="112" class="node"/>
+  <text x="1393" y="230" class="node-text">Gaussian group-mean</text>
+  <text x="1393" y="269" class="node-text">score</text>
+  <path d="M 1506 244 H 1544" class="flow"/>
+  <rect x="1558" y="188" width="184" height="112" class="node"/>
+  <text x="1650" y="229" class="small-text">One OOD score</text>
+  <text x="1650" y="263" class="small-text">for group X</text>
+
+  <text x="1002" y="400" class="heading">GMMD-Mean</text>
+  <rect x="1020" y="422" width="190" height="66" rx="4" class="reference-node"/>
+  <text x="1115" y="449" class="reference-text">Shared GMMD</text>
+  <text x="1115" y="473" class="reference-text">reference model</text>
+  <path d="M 1115 488 V 516" class="flow"/>
+  <rect x="1002" y="520" width="226" height="112" class="node"/>
+  <text x="1115" y="562" class="node-text">Image-level GMMD</text>
+  <text x="1115" y="601" class="node-text">scores</text>
+  <path d="M 1228 576 H 1266" class="flow"/>
+  <rect x="1280" y="520" width="226" height="112" rx="22" class="combine"/>
+  <text x="1393" y="561" class="combine-label">COMBINE</text>
+  <text x="1393" y="603" class="node-text">Arithmetic mean</text>
+  <path d="M 1506 576 H 1544" class="flow"/>
+  <rect x="1558" y="520" width="184" height="112" class="node"/>
+  <text x="1650" y="561" class="small-text">One OOD score</text>
+  <text x="1650" y="595" class="small-text">for group X</text>
+
+  <path d="M 900 576 H 948 V 244 H 1002" class="flow"/>
+  <path d="M 900 576 H 1002" class="flow"/>
+</svg>

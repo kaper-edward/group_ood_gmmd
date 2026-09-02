@@ -1,0 +1,80 @@
+{
+  "schema": "gmmd-experiment1-classwise-n10-v1",
+  "status": "PASS",
+  "reporting": "descriptive means over ten independent runs",
+  "derivation": "descriptive means over ten training seeds; no classwise hypothesis test",
+  "classes": {
+    "airplane": {
+      "cnc_native_mean": 86.85044444444445,
+      "gmmd_centroid_mean": 99.99644444444445,
+      "mean_delta": 13.146,
+      "seed_sd_of_delta": 10.179335373293053,
+      "gmmd_favored_seeds": 10
+    },
+    "automobile": {
+      "cnc_native_mean": 94.5351111111111,
+      "gmmd_centroid_mean": 96.37333333333333,
+      "mean_delta": 1.8382222222222282,
+      "seed_sd_of_delta": 2.3136578560576138,
+      "gmmd_favored_seeds": 9
+    },
+    "bird": {
+      "cnc_native_mean": 97.19866666666667,
+      "gmmd_centroid_mean": 99.97555555555556,
+      "mean_delta": 2.776888888888891,
+      "seed_sd_of_delta": 2.2420271055092424,
+      "gmmd_favored_seeds": 10
+    },
+    "cat": {
+      "cnc_native_mean": 90.96844444444446,
+      "gmmd_centroid_mean": 98.80577777777778,
+      "mean_delta": 7.837333333333319,
+      "seed_sd_of_delta": 3.8865441679302943,
+      "gmmd_favored_seeds": 10
+    },
+    "deer": {
+      "cnc_native_mean": 96.99333333333333,
+      "gmmd_centroid_mean": 99.93111111111112,
+      "mean_delta": 2.9377777777777965,
+      "seed_sd_of_delta": 1.874853300159595,
+      "gmmd_favored_seeds": 10
+    },
+    "dog": {
+      "cnc_native_mean": 87.37133333333333,
+      "gmmd_centroid_mean": 95.18266666666666,
+      "mean_delta": 7.811333333333337,
+      "seed_sd_of_delta": 6.018772138245993,
+      "gmmd_favored_seeds": 10
+    },
+    "frog": {
+      "cnc_native_mean": 98.49244444444443,
+      "gmmd_centroid_mean": 99.78933333333335,
+      "mean_delta": 1.2968888888889154,
+      "seed_sd_of_delta": 1.2428063292470173,
+      "gmmd_favored_seeds": 10
+    },
+    "horse": {
+      "cnc_native_mean": 99.82666666666668,
+      "gmmd_centroid_mean": 99.93911111111109,
+      "mean_delta": 0.1124444444444066,
+      "seed_sd_of_delta": 0.2623356105547925,
+      "gmmd_favored_seeds": 6
+    },
+    "ship": {
+      "cnc_native_mean": 69.35555555555555,
+      "gmmd_centroid_mean": 99.61422222222222,
+      "mean_delta": 30.25866666666667,
+      "seed_sd_of_delta": 13.313367404973395,
+      "gmmd_favored_seeds": 10
+    },
+    "truck": {
+      "cnc_native_mean": 98.06488888888889,
+      "gmmd_centroid_mean": 99.776,
+      "mean_delta": 1.7111111111111086,
+      "seed_sd_of_delta": 1.7181187274432586,
+      "gmmd_favored_seeds": 9
+    }
+  },
+  "gmmd_favored_classes": 10,
+  "cnc_favored_classes": 0
+}
